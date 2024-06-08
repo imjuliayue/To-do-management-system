@@ -1,4 +1,4 @@
-package com.jts.todo_management_system;
+package com.jts.todo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

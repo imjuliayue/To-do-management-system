@@ -1,6 +1,7 @@
 package com.jts.todo.service;
 
 import org.modelmapper.ModelMapper;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Service;
 
 import com.jts.todo.dto.TodoDto;
@@ -14,6 +15,7 @@ import java.util.stream.Collectors;
 
 @Service
 @AllArgsConstructor
+@SpringBootApplication(scanBasePackages = {"org.modelmapper"})
 public class TodoService {
 
     private TodoRepository todoRepository;
